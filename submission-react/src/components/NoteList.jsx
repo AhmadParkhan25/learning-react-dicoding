@@ -10,7 +10,6 @@ function NoteList({notes,onDelete, onArchived}) {
                     key={note.id} 
                     id={note.id}
                     onDelete={onDelete}
-                    archived={note.archived}
                     onArchived={onArchived}
                     {...note} />
                 ))
